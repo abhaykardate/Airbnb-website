@@ -6,6 +6,8 @@ const app = express();
 const mongoose = require("mongoose");
 
 
+// path 
+
 const path = require("path");
 const methodOverride=require("method-override");
 app.use(methodOverride("_method"));
